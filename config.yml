@@ -24,7 +24,7 @@ languages:
           url: projects
           weight: 5
         - name: Discord
-          url: https://discord.gg/ahpmTvhVmp
+          url: https://discord.gg/Fn8TkqkQUm
 outputs:
   home:
     - HTML
