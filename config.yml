@@ -1,0 +1,79 @@
+---
+baseURL: https://nekomimi.pet
+title: nekomimi.pet
+paginate: 5
+theme: PaperMod
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+languages:
+  en:
+    languageName: English
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Projects
+          url: projects
+          weight: 5
+        - name: Discord
+          url: https://discord.gg/ahpmTvhVmp
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+params:
+  env: production
+  description: Aayan Lamba - Web Designer, Historian
+  author:
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  images:
+    - ""
+  disableThemeToggle: true
+  defaultTheme: dark
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: ExampleSite
+    subtitle: "This is subtitle"
+    imageUrl: "<img location>"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  homeInfoParams:
+    Title: "Aayan Lamba"
+    Content: >
+      - I create simple sites that best describe you and your works succinctly.
+  socialIcons:
+    - name: github
+      url: https://github.com/waveringana
+    - name: email
+      url: mailto:ana@nekomimi.pet
+    - name: KoFi
+      url: https://ko-fi.com/waveringana
+      
+menu:
+  main:
+    - identifier: Home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: Projects
+      name: Projects
+      url: /projects
+      weight: 20

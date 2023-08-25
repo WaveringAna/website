@@ -1,0 +1,99 @@
+/* Hover effects on social media icons*/
+#icon, #discord, #twitter, #youtube, #spotify {
+    transition: transform 420ms ease;
+}
+
+#icon:hover, #discord:hover, #twitter:hover, #youtube:hover, #spotify:hover {
+    transform: scale(1.15);
+  }
+
+#discord:hover {color: #5865F2}
+#twitter:hover {color: #1DA1F2}
+#youtube:hover {color: #FF0000}
+#spotify:hover {color: #1DB954}
+
+/* Underline Animation */
+.post-content a,
+.post-description a {
+  position: relative;
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.post-content a::before,
+.post-description a::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--content);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+a:hover::before {
+  transform: scaleX(1);
+}
+
+/* For the Projects Page*/
+.post-content dt ~ dt, .post-content dd ~ dd {
+    margin-top: 1.5rem;
+  }
+  .post-content dt em {
+    display: block;
+    text-align: left;
+  
+    font-size: 0.875rem;
+    font-weight: 400;
+    font-style: normal;
+  
+    color: var(--secondary);
+  }
+
+::selection {
+    color: #444452;
+    background: #ffdc00;
+}
+
+.post-entry {
+  /*border: 1px solid green;*/
+  position: relative;
+  margin-bottom: var(--gap);
+  margin-left: 0rem;
+  margin-right: 1rem;
+  transition: transform 0.1s;
+  background-color: initial;
+  padding: initial;
+  border: initial;
+}
+
+.post-entry img {
+  max-height: 32rem;
+  border-radius: 3.5%;
+  /*border: 1px solid blue;*/
+}
+
+.portfolio-container {
+  /*border: 1px solid red;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px 0px; 
+}
+
+@media (max-width: 768px) {
+  .post-entry {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .post-entry img {
+    display: block; /* Removes any space a default inline-block might generate */
+    width: 100%;
+    height: 100%;
+    max-height: max-content;
+  }
+}
