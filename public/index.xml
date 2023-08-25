@@ -12,12 +12,12 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="https://nekomimi.pet/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Projects</title>
-      <link>https://nekomimi.pet/projects/</link>
-      <pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate>
+      <title>lovehindpa.ws</title>
+      <link>https://nekomimi.pet/websites/lovehindpa.ws/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nekomimi.pet/projects/</guid>
-      <description>These are all of my open-source projects I&amp;#39;ve worked on or I&amp;#39;m currently working on.</description>
+      <guid>https://nekomimi.pet/websites/lovehindpa.ws/</guid>
+      <description>Portfolio Site for Wolf9466</description>
     </item>
     
     <item>
@@ -30,12 +30,30 @@
     </item>
     
     <item>
-      <title>lovehindpa.ws</title>
-      <link>https://nekomimi.pet/websites/lovehindpa.ws/</link>
+      <title>embedder</title>
+      <link>https://nekomimi.pet/websites/server-monitoring/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nekomimi.pet/websites/lovehindpa.ws/</guid>
+      <guid>https://nekomimi.pet/websites/server-monitoring/</guid>
       <description>Portfolio Site for Wolf9466</description>
+    </item>
+    
+    <item>
+      <title>equihash-solomining</title>
+      <link>https://nekomimi.pet/websites/equihash-solomining/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nekomimi.pet/websites/equihash-solomining/</guid>
+      <description>equihash-solomining</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://nekomimi.pet/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nekomimi.pet/projects/</guid>
+      <description>These are all of my open-source projects I&amp;#39;ve worked on or I&amp;#39;m currently working on.</description>
     </item>
     
   </channel>
