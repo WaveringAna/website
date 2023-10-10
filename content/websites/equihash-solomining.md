@@ -6,5 +6,5 @@ link: 'https://github.com/waveringana/equihash-solomining'
 screenshot: 'equihash-solomining.png'
 layout: 'portfolio'
 featured: true
-weight: 4
+weight: 5
 ---

@@ -10,7 +10,8 @@
       <link>https://nekomimi.pet</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://nekomimi.pet/websites/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Tue, 10 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nekomimi.pet/websites/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>lovehindpa.ws</title>
       <link>https://nekomimi.pet/websites/lovehindpa.ws/</link>
@@ -18,6 +19,15 @@
       
       <guid>https://nekomimi.pet/websites/lovehindpa.ws/</guid>
       <description>Portfolio Site for Wolf9466</description>
+    </item>
+    
+    <item>
+      <title>Blue Sigil</title>
+      <link>https://nekomimi.pet/websites/bluesigil/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://nekomimi.pet/websites/bluesigil/</guid>
+      <description>Art site for Deepti Lamba</description>
     </item>
     
     <item>

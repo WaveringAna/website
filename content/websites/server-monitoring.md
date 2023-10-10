@@ -6,5 +6,5 @@ link: 'https://github.com/waveringana/server-monitoring'
 screenshot: 'server-monitoring.png'
 layout: 'portfolio'
 featured: true
-weight: 3
+weight: 4
 ---
