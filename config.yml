@@ -25,6 +25,11 @@ languages:
           weight: 5
         - name: Discord
           url: https://discord.gg/Fn8TkqkQUm
+          weight: 15
+        - name: Services
+          url: services
+          weight: 10
+
 outputs:
   home:
     - HTML
@@ -33,7 +38,7 @@ outputs:
 params:
   env: production
   description: Aayan Lamba - Web Designer, Historian
-  author:
+  author: Aayan Lamba
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
@@ -58,7 +63,7 @@ params:
   homeInfoParams:
     Title: "Aayan Lamba"
     Content: >
-      - I create simple sites that best describe you and your works succinctly.
+      - I personally create and design websites to grow your business or brand.
   socialIcons:
     - name: github
       url: https://github.com/waveringana
@@ -77,3 +82,7 @@ menu:
       name: Projects
       url: /projects
       weight: 20
+    - identifier: Services
+      name: Services
+      url: /services
+      weight: 30
