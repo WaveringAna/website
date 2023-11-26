@@ -34,7 +34,6 @@ For a deep dive into your project's specifics, please proceed to the form below.
     <input type="text" id="userWebsite" name="website" placeholder="Website">
     <label for="userText">Details</label>
     <textarea name="text" id="userText" rows="4" cols="50" placeholder="Input details here"></textarea>
-    <div class="h-captcha" data-captcha="true"></div>
     <button type="submit">Send</button>
 </form>
 
